@@ -6,3 +6,9 @@ https://hdl.handle.net/11296/xu2uqm
 
 基於天氣變化適應閾值之車道辨識及前車距離偵測：
 https://hdl.handle.net/11296/rjh36v
+
+PyTorch 自行訓練 YOLOv5 物件偵測模型教學與範例
+https://officeguide.cc/pytorch-yolo-v5-object-egg-detection-models-tutorial-examples/
+
+PyTorch 使用 YOLOv5 與 DeepSORT 進行車輛物件偵測、計算車流量教學與範例
+https://officeguide.cc/pytorch-yolo-v5-object-car-detection-calculate-traffic-flow-tutorial-examples/
