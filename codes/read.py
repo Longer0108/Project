@@ -1,7 +1,7 @@
 import cv2 as cv
 
 #read images
-img = cv.imread('photo/cat.jpg')
+img = cv.imread('Project\photo\cat.jpg')
 cv.imshow('Cat', img)
 
 cv.waitKey(0)
