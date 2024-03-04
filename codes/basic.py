@@ -1,5 +1,5 @@
 import cv2 as cv
-
+""" 
 # deal with images # 原始資料
 img = cv.imread('photo\cat.jpg')
 cv.imshow('Cat', img)
@@ -21,8 +21,7 @@ dilated = cv.dilate(canny, (7, 7), iterations=3)
 cv.imshow('Dilate', dilated)
 
 cv.waitKey(0)
-
-
+ """
 
 # deal with video formats
 capture = cv.VideoCapture('video/min_10sec_video.mp4')
@@ -46,7 +45,6 @@ while True:
     # dilating the image # 邊緣延伸
     dilated = cv.dilate(canny, (7, 7), iterations=3)
     cv.imshow('Dilate', dilated)
-
 
 
     if cv.waitKey(20) & 0xFF==ord('q'):
